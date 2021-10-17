@@ -9,12 +9,12 @@ public class Dog {
 	//--------------属性-----------------//
 	
 	/**
-	 * 属性（フィールド）：名前
+	 * 属性（フィールド）：名前（参照型）
 	 */
 	private String name;
 	
 	/**
-	 * 属性（フィールド）：年齢 
+	 * 属性（フィールド）：年齢 (プリミティブ型）
 	 */
 	private int age;
 	
@@ -41,7 +41,7 @@ public class Dog {
 	 * メソッド：吠える
 	 */
 	public void bark() {
-		System.out.println("vow vow!!");
+		System.out.println("vow vow!My name is " + this.name + ". I'm " + age + " years old.");
 	}
 
 	public String getName() {
@@ -59,5 +59,6 @@ public class Dog {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
+
+
 }
