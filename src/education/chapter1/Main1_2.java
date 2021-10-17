@@ -8,9 +8,14 @@ public class Main1_2 {
 	 */
 	public static void main(String[] args) {
 		
-		// Stringは文字列を表す「クラス」
+		// 変数：型 変数名
+		
+		// Stringは文字列を表す「クラス＝型」
 		// Stringは特殊なクラスで、""で値を生成できる。
-		String message = "This is message.";
+		String message;
+		message = "This is message.";
+		
+		System.out.println(message.length());
 		
 		String messageAdd = "\nThis is added message";
 		

@@ -10,7 +10,11 @@ public class Main1_1 {
 	public static void main(String[] args) {
 		
 		// 標準出力へ文字を表示
-		System.out.println("Hello World!!");
+		System.out.println(getHello(2));
+	}
+	
+	private static String getHello(int aaaa) {
+		return "Hello World!" + aaaa;
 	}
 
 }
